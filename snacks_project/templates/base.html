@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Django Things</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="{% url 'home_index' %}">Home</a>
+      </nav>
+    </header>
+    {% block content%} {% endblock content%}
+    <footer></footer>
+  </body>
+</html>
